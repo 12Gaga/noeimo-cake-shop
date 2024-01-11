@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,100&display=swap" rel="stylesheet"> -->
+    <title>Home</title>
+    <script
+      src="https://kit.fontawesome.com/14ae3ad7be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- TabBar -->
+    <div id="mother">
+      <div class="MenuBar">
+        <div class="logo">
+          <img class="lg" src="photo/logo.png" alt="" />
+        </div>
+        <div class="title">
+          <a href="home.html" class="til" id="home" style="color: #007a79"
+            >Home</a
+          >
+          <a href="menu.html" class="til" id="menu">Menu</a>
+          <a href="Review.html" class="til" id="cus">Review</a>
+          <a href="cartcake.html" class="til" id="order">Order Online</a>
+          <a href="contact.html" class="til" id="contact"
+            ><i class="bx bx-user"></i>Contact Us</a
+          >
+          <!-- <a href="cart.html" class="til" id="cart"><i class='bx bx-cart'></i>Cart</a> -->
+        </div>
+
+        <!-- slider for responsive -->
+        <div class="sideBar">
+          <div class="slides">
+            <div class="stick"></div>
+            <div class="stick"></div>
+            <div class="stick"></div>
+          </div>
+          <div id="title1">
+            <a href="home.html" class="til1" id="home" style="color: white"
+              >Home</a
+            >
+            <a href="menu.html" class="til1" id="menu">Menu</a>
+            <a href="Review.html" class="til1" id="cus">Review</a>
+            <a href="cartcake.html" class="til1" id="order">Order Online</a>
+            <a href="contact.html" class="til1" id="contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- body 1 -->
+      <div class="body1">
+        <div class="text">
+          <div class="txt">
+            <h1>Yummy sweeties delivered to your sweet life</h1>
+            <p>Order now New Items at great Prices !</p>
+            <a href="contact.html"><button class="btn">Read More</button></a>
+            <a href="cartcake.html"><button class="btn">Order Now</button></a>
+          </div>
+        </div>
+        <div class="image">
+          <img class="img" src="photo/cupcake.png" alt="" width="900px" />
+        </div>
+      </div>
+
+      <!-- body 2 -->
+      <div class="text2">
+        <h2>This Week's Specials</h2>
+        <p class="txt1">
+          Try our most popular signature cupcakes and taste the different !
+        </p>
+      </div>
+      <div class="body2">
+        <div class="box">
+          <i class="bx bx-heart ic"></i>
+          <img class="img1" src="photo/straw.png" alt="" />
+          <p class="name">Strawberry Choco</p>
+          <p class="price">12000MMK</p>
+          <!-- <a href="orderFrm copy.html"><button class="btn1" >ORDER THIS</button></a> -->
+          <button class="btn1">ORDER THIS</button>
+        </div>
+        <div class="box">
+          <i class="bx bx-heart ic"></i>
+          <img class="img1" src="photo/berry.png" alt="" />
+          <p class="name">Blueberry Lemon</p>
+          <p class="price">13000MMK</p>
+          <!-- <a href="orderFrm copy.html"><button class="btn1">ORDER THIS</button></a> -->
+          <button class="btn1">ORDER THIS</button>
+        </div>
+        <div class="box">
+          <i class="bx bx-heart ic"></i>
+          <img class="img1" src="photo/choco.png" alt="" />
+          <p class="name">Creamy Choco</p>
+          <p class="price">15000MMK</p>
+          <!-- <a href="orderFrm copy.html"><button class="btn1">ORDER THIS</button></a> -->
+          <button class="btn1">ORDER THIS</button>
+        </div>
+        <div class="box">
+          <i class="bx bx-heart ic"></i>
+          <img class="img1" src="photo/chesse.png" alt="" />
+          <p class="name">Dessert Cheese</p>
+          <p class="price">12000MMK</p>
+          <!-- <a href="orderFrm copy.html"><button class="btn1">ORDER THIS</button></a> -->
+          <button class="btn1">ORDER THIS</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="order11">
+      <i class="bx bx-x" id="icon1"></i>
+      <div id="order1">
+        <div class="ordericon">
+          <b><label for="" class="lbl">Name</label></b
+          ><br />
+          <input type="text" class="input" /><br />
+          <b><label for="" class="lbl">Phone Number</label></b
+          ><br />
+          <input type="text" class="input" /><br />
+          <b><label for="" class="lbl">E-Mail Address</label></b
+          ><br />
+          <input type="email" class="input" /><br />
+          <b><label for="" class="lbl">Address</label></b
+          ><br />
+          <input type="text" class="input" /><br />
+          <b><label for="" class="lbl">Quantity</label></b> <br />
+          <input type="text" class="input" /><br />
+          <b><label for="" class="lbl">Payment</label></b
+          ><br />
+          <input type="radio" id="kpay" /><span class="pay">K Pay</span><br />
+          <input type="radio" id="wpay" /><span class="pay">Wave Pay</span
+          ><br />
+          <input type="radio" id="Apay" /><span class="pay">AYA Pay</span><br />
+          <input type="radio" id="Ipay" /><span class="pay">COD</span><br />
+        </div>
+        <div class="orderphoto">
+          <img src="" alt="" id="img12" />
+          <button id="btn3" disabled>Submit</button>
+        </div>
+      </div>
+    </div>
+    <script src="home.js"></script>
+  </body>
+</html>

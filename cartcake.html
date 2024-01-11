@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartCake</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="cartcake.css">
+</head>
+<body>
+    <div id="mother">
+        <!-- Tab Bar -->
+        <div class="MenuBar">
+            <div class="logo">
+                <img class="lg"  src="photo/logo.png" alt="">
+            </div>
+            <div class="title">
+                <a href="home.html" class="til" id="home" >Home</a>
+                <a href="menu.html" class="til" id="menu">Menu</a>
+                <a href="Review.html" class="til" id="cus">Review</a>
+                <a href="cartcake.html" class="til" id="order"style="color: #007A79">Order Online</a>
+                <a href="contact.html" class="til" id="contact"><i class='bx bx-user'></i>Contact Us</a>
+            </div>
+            <!-- slider for responsive -->
+        <div class="sideBar">
+            <div class="slides">
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+            </div>
+            <div id="title1">
+                <a href="home.html" class="til1" id="home" style="color: white;">Home</a>
+                <a href="menu.html" class="til1" id="menu">Menu</a>
+                <a href="Review.html" class="til1" id="cus">Review</a>
+                <a href="cartcake.html" class="til1" id="order">Order Online</a>
+                <a href="contact.html" class="til1" id="contact">Contact Us</a> 
+            </div>
+        </div>
+        </div>
+
+            <!-- cart logo & total Amount -->
+           <div class="cartBuyer">
+             <span class="tolamount sizeOfCart"></span>
+             <i class='bx bxs-cart' style='color:#1b1b1b' ></i>
+          </div>
+          
+          <!-- Menu Categories -->
+          <div class="container">
+            <div class="categories">
+                <p id="cake" class="mv">Cake</i></p>
+                <p id="cupcake" class="mv">Cupcake</i></p>
+                <p id="mini" class="mv">Mini cake</p>     
+                <p id="slice" class="mv">Slice cake</i></p>     
+            </div>
+
+            <!-- Menus from each Menu categories -->
+            <div id="ShowItem">
+                <div id="Showitem1"></div>
+            </div>
+          </div> 
+
+ </div>    
+            <!-- Categories      -->
+          <div id="ShowAddOnCategories" class="show">
+            <i class='bx bx-no-entry' style='color:#e4772d'  ></i>
+            <div id="AddOn">
+                <img id="AddOnImg"class="image" src=""></img>
+                <h1 id="AddOnName" style="color:  rgb(250, 142, 10);"></h1>
+            </div>
+
+            <!-- Add on categories -->
+            <!-- for cakes -->
+            <!-- Layer -->
+            <div class="headercategories">
+                <h2 class="AddOnCategories">Layer</h2>
+                <p class="AddOnCategoriesa">Required</p>
+            </div>
+            <div class="Addon">
+                <input type="radio" id="Layer1" class="falv"><span class="fsize">1 layer </span><span class="layerPrice1 lyr fsize"></span> <span class="fsize">MMK</span>  <br>
+                <input type="radio" id="Layer2" class="falv"><span class="fsize">2 layer</span> <span class="layerPrice2 lyr fsize"></span> <span class="fsize">MMK</span>  <br>
+                <input type="radio" id="Layer3" class="falv"><span class="fsize">3 layer</span> <span class="layerPrice3 lyr fsize"></span> <span class="fsize">MMK</span>  <br>
+                <input type="radio" id="Layer4" class="falv"><span class="fsize">4 layer</span> <span class="layerPrice4 lyr fsize"></span> <span class="fsize">MMK</span>  <br>
+            </div>
+            <!-- Falvour -->
+            <div class="headercategories">
+                <h2 class="AddOnCategories">Flavour</h2>
+                <p class="AddOnCategoriesa">Required</p>
+            </div>    
+            <div class="AddOn">
+                <input type="radio" id="falvourStraw" class="falv">  <span class="fsize">Strawberry</span> 
+                <input type="radio" id="falvourChoco" class="falv">  <span class="fsize">Chocolate</span> 
+                <input type="radio" id="falvourBerry" class="falv">  <span class="fsize">BlueBerry</span> 
+                <input type="radio" id="falvourCheese" class="falv"> <span class="fsize">Cheese</span>  
+            </div>
+            <!-- Name that put on cake -->
+            <div class="headercategories">
+                <h2 class="AddOnCategories">Name that you wanna put on the cake</h2>
+                <p class="AddOnCategoriesa">Optional</p>
+            </div>
+            <input type="text" class="wirteinput">
+
+            <!-- Count Of Item In Add On Categories Tag -->
+            <div class="plusminus" style="margin-bottom: 4%;">
+                <h2 class="AddOnCategories">Quantity</h2>
+                <button class="minus fs">-</button>
+                <b><span id="countOfItem" ></span></b>
+                <button class="plus fs">+</button>
+            </div>
+            
+            <!-- Add to cart Button -->
+            <!-- for cupcake.minicake,.. -->
+            <button id="AddToCart" class="AddCart" disabled>Add To Cart</button>
+          </div>
+
+          <div id="ShowAddOnCategories2" class="show">
+            <i class='bx bx-no-entry entry' style='color:#e4772d'  ></i>
+            <div id="AddOn">
+                <img id="AddOnImg2" class="image" src=""></img>
+                <h1 id="AddOnName2" style="color:  rgb(250, 142, 10);"></h1>
+                <h2 id="AddOnPrice2" style="color:  rgb(250, 142, 10);"></h2>
+            </div>
+            <div class="plusminus" style="margin-bottom: 4%;">
+                <h2 class="AddOnCategories">Quantity</h2>
+                <button class="minus2 fs">-</button>
+                <b><span id="countOfItem2"></span></b>
+                <button class="plus2 fs">+</button>
+            </div>
+            
+            <!-- Add to cart Button -->
+            <button id="AddToCart2" class="AddCart">Add To Cart</button>
+          </div>
+
+          <!-- show items from cart list -->
+          <div id="showcart" class="show">
+            <i class='bx bxs-no-entry' style='color:#e45b23' ></i>
+            <span class="cartli" style="color: rgb(250, 142, 10); ">Your Cart Lists</span>
+            <hr>
+            <!-- <h4 id="noList"></h4> -->
+            <ul id="shoppingList"></ul>
+            <a href="orderFrm.html"><button class="check">Order</button></a> 
+        </div>
+       
+    <script src="cartcake.js"></script>
+</body>
+</html>

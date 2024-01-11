@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Menu</title>
+    <style>
+      .zoom4 {
+        width: 50%;
+      }
+
+      #name7 {
+        font-size: 55px;
+        margin: 0px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TabBar -->
+    <div id="mother5">
+      <div class="MenuBar">
+        <div class="logo">
+          <img class="lg" src="photo/logo.png" alt="" />
+        </div>
+        <div class="title">
+          <a href="home.html" class="til" id="home">Home</a>
+          <a href="menu.html" class="til" id="menu" style="color: #007a79"
+            >Menu</a
+          >
+          <a href="Review.html" class="til" id="cus">Review</a>
+          <a href="cartcake.html" class="til" id="order">Order Online</a>
+          <a href="contact.html" class="til" id="contact"
+            ><i class="bx bx-user"></i>Contact Us</a
+          >
+          <!-- <a href="cart.html" class="til" id="cart"><i class='bx bx-cart'></i>Cart</a> -->
+        </div>
+
+        <!-- Silder Bar for responsive-->
+        <div class="sideBar">
+          <div class="slides">
+            <div class="stick"></div>
+            <div class="stick"></div>
+            <div class="stick"></div>
+          </div>
+          <div id="title1">
+            <a href="home.html" class="til1" id="home">Home</a>
+            <a href="menu.html" class="til1" id="menu" style="color: white"
+              >Menu</a
+            >
+            <a href="Review.html" class="til1" id="cus">Review</a>
+            <a href="cartcake.html" class="til1" id="order">Order Online</a>
+            <a href="contact.html" class="til1" id="contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Title bar -->
+      <div class="container">
+        <ul id="list"></ul>
+        <div id="slider"></div>
+      </div>
+      <!-- Showing Menus -->
+      <div id="showpic"></div>
+    </div>
+
+    <!-- Showing in detail -->
+    <div id="motherZoom">
+      <div id="zoom">
+        <div class="zoom4">
+          <img
+            src="https://olivesnthyme.com/wp-content/uploads/2023/02/Brownie-Cake-18.jpg"
+            alt=""
+            id="img7"
+          />
+        </div>
+
+        <div class="zoom4 zoom5">
+          <h4 id="name7"></h4>
+          <!-- <h4 style="font-size: 30px; margin: 0px;">tytutyuyi</h4> -->
+          <h3 class="hh3">Avariable</h3>
+          <ul class="uls">
+            <li style="display: inline; margin-right: 15px">1 layer</li>
+            <span id="price7"></span
+            ><br />
+            <li style="display: inline; margin-right: 15px">2 layers</li>
+            <span id="price8"></span
+            ><br />
+            <li style="display: inline; margin-right: 15px">3 layers</li>
+            <span id="price9"></span
+            ><br />
+            <li style="display: inline; margin-right: 15px">4 layers</li>
+            <span id="price10"></span
+            ><br />
+          </ul>
+          <h3 class="hh3">Flavour Avariable</h3>
+          <ul style="list-style: none" class="uls">
+            <li>Strawberry</li>
+            <li>Chocolate</li>
+            <li>Vinella</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="menu.js"></script>
+  </body>
+</html>

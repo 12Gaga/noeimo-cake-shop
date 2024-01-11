@@ -1,0 +1,93 @@
+/* payment form */
+body{
+    background-color: #D6F7FE;
+}
+
+ .orderinfo{
+    width: 50%;
+    margin:0 auto ;
+    box-shadow: 8px 8px 9px gray;
+}
+
+.payment{
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid #21CCD3;
+    padding: 1%;
+    color: #21CCD3;
+    box-shadow: 8px 8px 8px gray;
+    background-color: white;
+}
+
+.acc{
+    font-size: 30px;
+    color: #21CCD3;
+}
+
+.orders{
+    border: 2px solid #976F4F;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+.pay{
+    font-size: 25px;
+    color: #002A29;
+}
+
+.bx{
+ font-size:xx-large;
+ margin-right: 2%;
+}
+
+.cusinput2{
+    padding:20px 2px 20px 20px;
+    font-size: 25px;
+    width: 50%;
+    background-color:  #e6f7ff;
+    color: #21CCD3;
+    margin-bottom: 1%;
+    box-shadow: 8px 8px 8px gray;
+}
+
+.thanksdiv{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    display: none;
+}
+
+.img10{
+    width: 70%;
+}
+
+.pays{
+    margin: 0;
+    font-size: 35px;
+    color: #21CCD3;
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+.btn5{
+    padding: 15px 25px;
+   font-size: 30px;
+   border-radius: 20px;
+   /* background-color:gray; */
+   color: gray;
+   /* filter: drop-shadow(4px 4px 8px #0c0c0c); */
+   margin-top: 20px;
+   position: relative;
+   left: 90%;
+   cursor: not-allowed;
+}
+
+.payfrm{
+    margin-top: 15px;
+     margin-left: 3%;
+     font-size: 25px;
+}
+
+.orderReview{
+    margin-top: 3%;
+}
