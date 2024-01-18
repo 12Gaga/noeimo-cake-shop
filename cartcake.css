@@ -976,7 +976,9 @@ body {
   .cartli {
     font-size: 13px;
   }
-  .fsize {
+  .fsize,
+  .wirteinput,
+  .changesize1 {
     font-size: 8px;
   }
   .falv {
@@ -984,11 +986,5 @@ body {
   }
   .fs {
     font-size: 7px;
-  }
-  .wirteinput {
-    font-size: 8px;
-  }
-  .changesize1 {
-    font-size: 8px;
   }
 }
