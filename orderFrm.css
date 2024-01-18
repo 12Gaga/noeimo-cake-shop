@@ -1,93 +1,287 @@
 /* payment form */
-body{
-    background-color: #D6F7FE;
+body {
+  background-color: #d6f7fe;
 }
 
- .orderinfo{
-    width: 50%;
-    margin:0 auto ;
-    box-shadow: 8px 8px 9px gray;
+.orderinfo {
+  border: 2px solid #976f4f;
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 8px 8px 9px gray;
+  border-radius: 10px;
 }
 
-.payment{
-    text-align: center;
-    font-size: 50px;
-    border: 1px solid #21CCD3;
-    padding: 1%;
-    color: #21CCD3;
-    box-shadow: 8px 8px 8px gray;
-    background-color: white;
+.payment {
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #21ccd3;
+  padding: 1%;
+  color: #21ccd3;
+  box-shadow: 8px 8px 8px gray;
+  background-color: white;
 }
 
-.acc{
+.acc {
+  font-size: 30px;
+  color: #21ccd3;
+}
+
+.orders {
+  padding: 70px;
+}
+
+.pay {
+  font-size: 25px;
+  color: #002a29;
+}
+
+.bx {
+  font-size: xx-large;
+  margin-right: 2%;
+}
+
+.cusinput2 {
+  padding: 20px 2px 20px 20px;
+  font-size: 25px;
+  width: 50%;
+  background-color: #e6f7ff;
+  color: #21ccd3;
+  margin-bottom: 1%;
+  box-shadow: 8px 8px 8px gray;
+}
+
+.thanksdiv {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  display: none;
+}
+
+.img10 {
+  width: 70%;
+}
+
+.pays {
+  margin: 0;
+  font-size: 35px;
+  color: #21ccd3;
+  font-weight: bold;
+  margin-top: 1%;
+}
+
+.btn5 {
+  padding: 15px 25px;
+  font-size: 30px;
+  border-radius: 20px;
+  /* background-color:gray; */
+  color: gray;
+  /* filter: drop-shadow(4px 4px 8px #0c0c0c); */
+  margin-top: 20px;
+  position: relative;
+  left: 90%;
+  cursor: not-allowed;
+}
+
+.payfrm {
+  margin-top: 15px;
+  margin-left: 3%;
+  font-size: 25px;
+}
+
+.orderReview {
+  margin-top: 3%;
+}
+
+/* media responsive */
+@media screen and (max-width: 1280px) {
+  .orders {
+    padding: 40px;
+  }
+  .payment {
     font-size: 30px;
-    color: #21CCD3;
-}
-
-.orders{
-    border: 2px solid #976F4F;
-    padding: 70px;
-    border-radius: 10px;
-}
-
-.pay{
+  }
+  .acc,
+  .bx,
+  .pays {
     font-size: 25px;
-    color: #002A29;
+  }
+  .cusinput2 {
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 1.5%;
+    box-shadow: 4px 4px 4px gray;
+  }
+  .pay {
+    font-size: 17px;
+  }
+  .btn5 {
+    padding: 9px 13px;
+    font-size: 18px;
+    left: 85%;
+  }
+  .img10 {
+    width: 60%;
+  }
+  .thanksdiv {
+    left: 36%;
+  }
 }
 
-.bx{
- font-size:xx-large;
- margin-right: 2%;
-}
-
-.cusinput2{
-    padding:20px 2px 20px 20px;
-    font-size: 25px;
+@media screen and (max-width: 1024px) {
+  .orders {
+    padding: 30px;
+  }
+  .payment {
+    font-size: 23px;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .acc,
+  .bx,
+  .pays {
+    font-size: 20px;
+  }
+  .cusinput2 {
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 1.5%;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .pay {
+    font-size: 13px;
+  }
+  .btn5 {
+    padding: 7px 10px;
+    font-size: 14px;
+  }
+  .inputt {
+    width: 10px;
+  }
+  .img10 {
     width: 50%;
-    background-color:  #e6f7ff;
-    color: #21CCD3;
-    margin-bottom: 1%;
-    box-shadow: 8px 8px 8px gray;
+  }
 }
 
-.thanksdiv{
-    position: absolute;
-    top: 30%;
-    left: 38%;
-    display: none;
+@media screen and (max-width: 912px) {
+  .thanksdiv {
+    top: 15%;
+    left: 35%;
+  }
+  .payfrm {
+    margin-top: 8px;
+  }
+  .btn5 {
+    margin-top: 0;
+  }
+  .cusinput2 {
+    margin-bottom: 2.5%;
+  }
 }
 
-.img10{
+@media screen and (max-width: 768px) {
+  .cusinput2 {
+    padding: 7px;
     width: 70%;
+  }
 }
 
-.pays{
-    margin: 0;
-    font-size: 35px;
-    color: #21CCD3;
-    font-weight: bold;
-    margin-top: 1%;
+@media screen and (max-width: 540px) {
+  .orderinfo {
+    width: 60%;
+  }
+  .orders {
+    padding: 10px;
+  }
+  .cusinput2 {
+    padding: 6px;
+    font-size: 10px;
+  }
+  .payment {
+    font-size: 18px;
+  }
+  .acc,
+  .bx,
+  .pays {
+    font-size: 15px;
+  }
+  .pay {
+    font-size: 10px;
+  }
+  .inputt {
+    width: 7px;
+  }
+  .btn5 {
+    left: 80%;
+    font-size: 11px;
+  }
+  .img10 {
+    width: 60%;
+  }
+  .thanksdiv {
+    top: 20%;
+    left: 30%;
+  }
 }
 
-.btn5{
-    padding: 15px 25px;
-   font-size: 30px;
-   border-radius: 20px;
-   /* background-color:gray; */
-   color: gray;
-   /* filter: drop-shadow(4px 4px 8px #0c0c0c); */
-   margin-top: 20px;
-   position: relative;
-   left: 90%;
-   cursor: not-allowed;
+@media screen and (max-width: 431px) {
+  .cusinput2 {
+    padding: 6px;
+  }
+  .btn5 {
+    left: 75%;
+  }
+  .thanksdiv {
+    top: 15%;
+  }
 }
 
-.payfrm{
-    margin-top: 15px;
-     margin-left: 3%;
-     font-size: 25px;
+@media screen and (max-width: 415px) {
+  .payment {
+    font-size: 13px;
+  }
+  .acc,
+  .bx,
+  .pays {
+    font-size: 12px;
+  }
+  .cusinput2 {
+    font-size: 8px;
+  }
+  .pay {
+    font-size: 9.3px;
+  }
+  .inputt {
+    width: 6px;
+  }
+  .btn5 {
+    padding: 5px 8px;
+    font-size: 10px;
+  }
 }
 
-.orderReview{
-    margin-top: 3%;
+@media screen and (max-width: 280px) {
+  .orderinfo {
+    width: 65%;
+  }
+  .payment {
+    font-size: 10px;
+  }
+  .acc,
+  .bx,
+  .pays {
+    font-size: 9px;
+  }
+  .cusinput2 {
+    font-size: 6px;
+    padding: 4px;
+  }
+  .pay {
+    font-size: 6.5px;
+  }
+  .inputt {
+    width: 4px;
+  }
+  .btn5 {
+    padding: 4px 5px;
+    font-size: 8px;
+  }
 }

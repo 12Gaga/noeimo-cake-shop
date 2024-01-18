@@ -992,6 +992,33 @@ h2 {
   .bxxx {
     font-size: 27px;
   }
+  /* write customer review */
+  .cusre {
+    margin-top: 2%;
+  }
+  .review {
+    height: 60px;
+    width: 75%;
+  }
+  .cusab {
+    font-size: 22px;
+  }
+  .cusinput {
+    font-size: 18px;
+    width: 90.5%;
+  }
+  .bx1 {
+    font-size: 22px;
+  }
+  .btn33 {
+    margin-top: 0px;
+  }
+  .mar {
+    font-size: 23px;
+  }
+  .img20 {
+    margin-top: 15%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -1162,6 +1189,33 @@ h2 {
   .ptag {
     font-size: 13px;
   }
+  /* write customer review */
+  .secreviewinfo {
+    padding-left: 80px;
+  }
+  .review {
+    height: 50px;
+    margin-bottom: 35px;
+  }
+  .cusab {
+    font-size: 17.5px;
+    bottom: 23px;
+  }
+  .cusinput {
+    font-size: 14px;
+    width: 89.5%;
+    padding: 17px;
+  }
+  .bx1 {
+    font-size: 17px;
+    margin-top: 18px;
+  }
+  .btn33 {
+    margin-bottom: 20px;
+  }
+  .mar {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 912px) {
@@ -1193,6 +1247,13 @@ h2 {
     width: 30%;
     top: 20%;
     left: 35%;
+  }
+  /* write customer review */
+  .cusinput {
+    width: 88.5%;
+  }
+  .secreviewinfo {
+    padding-left: 55px;
   }
 }
 
@@ -1230,6 +1291,10 @@ h2 {
   .btn3 {
     margin-top: 35px;
   }
+  /* write customer review */
+  .bx1 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -1260,6 +1325,28 @@ h2 {
   }
   .txt2 {
     margin: 30px;
+  }
+  /* write customer review */
+  .cusre {
+    display: block;
+  }
+  .reviewinfo {
+    width: 90%;
+  }
+  .cusinput {
+    width: 92.7%;
+  }
+  .secreviewinfo {
+    padding-left: 100px;
+  }
+  .btn33 {
+    margin-top: 0;
+  }
+  .reimg {
+    display: none;
+  }
+  .bx1 {
+    font-size: 13px;
   }
 }
 
@@ -1416,6 +1503,36 @@ h2 {
   .contxt {
     font-size: 20px;
   }
+  /* write customer review */
+  .headertitle {
+    font-size: 20px;
+  }
+  .review {
+    height: 31px;
+    width: 80%;
+    border-radius: 8px;
+  }
+  .cusab {
+    font-size: 14px;
+    bottom: 8px;
+  }
+  .secreviewinfo {
+    padding-left: 50px;
+  }
+  .cusinput {
+    font-size: 11px;
+    padding: 10px;
+    width: 94.5%;
+    border-radius: 8px;
+  }
+  .bx1 {
+    font-size: 10px;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  .btn33 {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (max-width: 431px) {
@@ -1454,6 +1571,20 @@ h2 {
   }
   .contxt {
     font-size: 18px;
+  }
+  /* write customer review  */
+  .cusinput {
+    width: 93%;
+  }
+  .secreviewinfo {
+    padding-left: 20px;
+  }
+  .cusab {
+    bottom: 9px;
+    left: 15px;
+  }
+  .reviewinfo {
+    margin-left: 15px;
   }
 }
 
@@ -1577,6 +1708,13 @@ h2 {
   .btn3 {
     font-size: 8px;
   }
+  /* write customer review  */
+  .cusinput {
+    width: 92.3%;
+  }
+  .btn33 {
+    font-size: 9px;
+  }
 }
 
 @media screen and (max-width: 281px) {
@@ -1696,7 +1834,7 @@ h2 {
     margin-top: 15px;
   }
   .bxs-star {
-    font-size: 5px;
+    font-size: 6px;
   }
 
   .btn3 {
@@ -1728,5 +1866,39 @@ h2 {
   }
   #icon {
     font-size: 15px;
+  }
+
+  /* write customer review */
+  .cusre {
+    margin-top: 5%;
+  }
+  .headertitle {
+    font-size: 14px;
+  }
+  .secreviewinfo {
+    padding-left: 0px;
+  }
+  .review {
+    height: 28px;
+    width: 85%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .cusab {
+    bottom: 12px;
+    left: 10px;
+    font-size: 11px;
+  }
+  .cusinput {
+    font-size: 9px;
+    width: 91%;
+    border-radius: 5px;
+  }
+  .btn33 {
+    filter: none;
+  }
+  .bx1 {
+    font-size: 6px;
+    margin-right: 3px;
   }
 }
