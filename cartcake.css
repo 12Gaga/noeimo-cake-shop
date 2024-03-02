@@ -306,6 +306,9 @@ body {
   font-size: 25px;
 }
 
+.hidden {
+  display: none;
+}
 /* Media Responsive */
 
 @media screen and (max-width: 1280px) {

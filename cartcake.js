@@ -569,7 +569,7 @@ const itemByBuy = () => {
     });
   });
 
-  // updateShoppingCartHTML();
+  updateShoppingCartHTML();
 };
 
 ShowAddOnCategoriesTag.addEventListener("click", (e) => {
