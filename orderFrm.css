@@ -167,7 +167,7 @@ body {
   }
 
   .thanksdiv {
-    top: 15%;
+    top: 35%;
     left: 35%;
   }
   .payfrm {
@@ -218,7 +218,6 @@ body {
     width: 60%;
   }
   .thanksdiv {
-    top: 20%;
     left: 30%;
   }
 }
@@ -233,9 +232,6 @@ body {
   }
   .btn5 {
     left: 75%;
-  }
-  .thanksdiv {
-    top: 15%;
   }
 }
 
