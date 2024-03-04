@@ -1,73 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <title>Order Online</title>
-</head>
-<body>
-<div class="mother2">
-    <!-- TabBar -->
-    <div class="MenuBar">
+  </head>
+  <body>
+    <div class="mother2">
+      <!-- TabBar -->
+      <div class="MenuBar">
         <div class="logo">
-            <img class="lg"  src="photo/logo.png" alt="">
+          <img class="lg" src="photo/logo.png" alt="" />
         </div>
         <div class="title">
-            <a href="home.html" class="til" id="home" >Home</a>
-            <a href="menu.html" class="til" id="menu">Menu</a>
-            <a href="Review.html" class="til" id="cus">Review</a>
-            <a href="order.html" class="til" id="order"style="color: #007A79">Order Online</a>
-            <a href="contact.html" class="til" id="contact"><i class='bx bx-user'></i>Contact Us</a>
-            <!-- <a href="cart.html" class="til" id="cart"><i class='bx bx-cart'></i>Cart</a> -->
+          <a href="index.html" class="til" id="home">Home</a>
+          <a href="menu.html" class="til" id="menu">Menu</a>
+          <a href="Review.html" class="til" id="cus">Review</a>
+          <a href="order.html" class="til" id="order" style="color: #007a79"
+            >Order Online</a
+          >
+          <a href="contact.html" class="til" id="contact"
+            ><i class="bx bx-user"></i>Contact Us</a
+          >
+          <!-- <a href="cart.html" class="til" id="cart"><i class='bx bx-cart'></i>Cart</a> -->
         </div>
         <!-- for responsive -->
-        <div class="sideBar" style="display: none;">
-            <div class="slides">
-                <div class="stick"></div>
-                <div class="stick"></div>
-                <div class="stick"></div>
-            </div>
-            <div id="title1">
-                <a href="home.html" class="til1" id="home">Home</a>
-                <a href="menu.html" class="til1" id="menu">Menu</a>
-                <a href="Review.html" class="til1" id="cus">Review</a>
-                <a href="order.html" class="til1" id="order" style="color: white;">Order Online</a>
-                <a href="contact.html" class="til1" id="contact">Contact Us</a> 
-            </div>
+        <div class="sideBar" style="display: none">
+          <div class="slides">
+            <div class="stick"></div>
+            <div class="stick"></div>
+            <div class="stick"></div>
+          </div>
+          <div id="title1">
+            <a href="index.html" class="til1" id="home">Home</a>
+            <a href="menu.html" class="til1" id="menu">Menu</a>
+            <a href="Review.html" class="til1" id="cus">Review</a>
+            <a href="order.html" class="til1" id="order" style="color: white"
+              >Order Online</a
+            >
+            <a href="contact.html" class="til1" id="contact">Contact Us</a>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <div class="itag">
-        <span class="cart3">Cart List<i class='bx bx-cart' style='color:#0c0c0c' ></i></span>
+      <div class="itag">
+        <span class="cart3"
+          >Cart List<i class="bx bx-cart" style="color: #0c0c0c"></i
+        ></span>
         <p id="cost"></p>
+      </div>
+
+      <!-- <div class="showmenu"> -->
+      <h2 class="head8">StrawBerry</h2>
+      <div id="strawTag" class="flexing"></div>
+      <h2 class="head8">Chocolate</h2>
+      <div id="chocoTag" class="flexing"></div>
+      <h2 class="head8">Cheese</h2>
+      <div id="CheeseTag" class="flexing"></div>
+      <h2 class="head8">BlueBerry</h2>
+      <div id="blueTag" class="flexing"></div>
+      <!-- </div> -->
     </div>
 
-    <!-- <div class="showmenu"> -->
-        <h2 class="head8">StrawBerry</h2>
-       <div id="strawTag" class="flexing"></div>
-       <h2 class="head8">Chocolate</h2>
-       <div id="chocoTag" class="flexing"></div>
-       <h2 class="head8">Cheese</h2>
-       <div id="CheeseTag" class="flexing"></div>
-       <h2 class="head8">BlueBerry</h2>
-       <div id="blueTag" class="flexing"></div>
-    <!-- </div> -->
-</div>
-
-    
     <div id="showcart">
-        <i class='bx bxs-no-entry'></i>
-        <span class="cartli" style="font-family: Georgia, 'Times New Roman', Times, serif;">Your Cart Lists</span>
-        <hr>
-        <h4 id="noList"></h4>
-        <ul id="shoppingList"></ul>
-       <a href="orderFrm.html"><button class="check">Order</button></a> 
+      <i class="bx bxs-no-entry"></i>
+      <span
+        class="cartli"
+        style="font-family: Georgia, 'Times New Roman', Times, serif"
+        >Your Cart Lists</span
+      >
+      <hr />
+      <h4 id="noList"></h4>
+      <ul id="shoppingList"></ul>
+      <a href="orderFrm.html"><button class="check">Order</button></a>
     </div>
 
-    
-<script src="order.js"></script>
-
-</body>
+    <script src="order.js"></script>
+  </body>
 </html>
