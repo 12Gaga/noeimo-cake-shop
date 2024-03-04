@@ -74,7 +74,7 @@ body {
 
 #title1 {
   padding: 0 0 5px 0;
-  background-color: palevioletred;
+  background-color: #ccd0da;
   width: 20%;
   position: absolute;
   top: 70%;
@@ -632,7 +632,7 @@ h2 {
 }
 
 .secreviewinfo {
-  padding-left: 100px;
+  padding-left: 70px;
 }
 
 .reimg {
@@ -1191,7 +1191,7 @@ h2 {
   }
   /* write customer review */
   .secreviewinfo {
-    padding-left: 80px;
+    padding-left: 50px;
   }
   .review {
     height: 50px;
@@ -1253,7 +1253,7 @@ h2 {
     width: 88.5%;
   }
   .secreviewinfo {
-    padding-left: 55px;
+    padding-left: 25px;
   }
 }
 
@@ -1337,7 +1337,7 @@ h2 {
     width: 92.7%;
   }
   .secreviewinfo {
-    padding-left: 100px;
+    padding-left: 60px;
   }
   .btn33 {
     margin-top: 0;
@@ -1517,7 +1517,7 @@ h2 {
     bottom: 8px;
   }
   .secreviewinfo {
-    padding-left: 50px;
+    padding-left: 40px;
   }
   .cusinput {
     font-size: 11px;
@@ -1531,7 +1531,7 @@ h2 {
     margin-left: 10px;
   }
   .btn33 {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
   }
 }
 
@@ -1713,7 +1713,7 @@ h2 {
     width: 92.3%;
   }
   .btn33 {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 

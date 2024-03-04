@@ -162,6 +162,10 @@ body {
 }
 
 @media screen and (max-width: 912px) {
+  .orderinfo {
+    width: 80%;
+  }
+
   .thanksdiv {
     top: 15%;
     left: 35%;
@@ -185,9 +189,6 @@ body {
 }
 
 @media screen and (max-width: 540px) {
-  .orderinfo {
-    width: 60%;
-  }
   .orders {
     padding: 10px;
   }
@@ -223,6 +224,10 @@ body {
 }
 
 @media screen and (max-width: 431px) {
+  .orderinfo {
+    width: 100%;
+  }
+
   .cusinput2 {
     padding: 6px;
   }

@@ -451,25 +451,25 @@ const zoomout = () => {
 
   console.log(zooms);
 
-  zooms.forEach((pds) => {
-    pds.addEventListener("click", (e) => {
-      if (e.target.classList.contains("details")) {
-        const imgdiv = pds.querySelector(".pic").src;
-        const namediv = pds.querySelector(".name1").innerHTML;
-        const pricediv = pds.querySelector(".price1").innerHTML;
+  // zooms.forEach((pds) => {
+  //   pds.addEventListener("click", (e) => {
+  //     if (e.target.classList.contains("details")) {
+  //       const imgdiv = pds.querySelector(".pic").src;
+  //       const namediv = pds.querySelector(".name1").innerHTML;
+  //       const pricediv = pds.querySelector(".price1").innerHTML;
 
-        img7tag.src = imgdiv;
-        name7tag.innerHTML = namediv;
-        pricetag.innerHTML = "-  " + pricediv + "MMK";
-        pricetag1.innerHTML = "-  " + pricediv * 2 + "MMK";
-        pricetag2.innerHTML = "-  " + pricediv * 3 + "MMK";
-        pricetag3.innerHTML = "-  " + pricediv * 4 + "MMK";
-        mother5tag.style.opacity = "0.3px";
-        mother5tag.style.filter = "blur(15px)";
-        zoomtag.style.display = "block";
-      }
-    });
-  });
+  //       img7tag.src = imgdiv;
+  //       name7tag.innerHTML = namediv;
+  //       pricetag.innerHTML = "-  " + pricediv + "MMK";
+  //       pricetag1.innerHTML = "-  " + pricediv * 2 + "MMK";
+  //       pricetag2.innerHTML = "-  " + pricediv * 3 + "MMK";
+  //       pricetag3.innerHTML = "-  " + pricediv * 4 + "MMK";
+  //       mother5tag.style.opacity = "0.3px";
+  //       mother5tag.style.filter = "blur(15px)";
+  //       zoomtag.style.display = "block";
+  //     }
+  //   });
+  // });
 
   zoomtag.addEventListener("click", () => {
     zoomtag.style.display = "none";
